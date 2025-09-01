@@ -1,10 +1,10 @@
-/* Reset básico */
+/* Reset Básico */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/* Estilo Geral */
+/* Estilo Básico */
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f4f4;
@@ -21,8 +21,7 @@ header{
     flex-wrap: wrap;
     gap: 16px;
     padding: 20px;
-    justify-content: space-between;
-
+    justify-content: space-between;    
 }
 /* Cards */
 .card{
@@ -32,27 +31,27 @@ header{
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    
 }
 /* Mobile 100% largura */
-@media(max-width: 600px) {
-    /* regras só valem para telas <=600px*/
+@media(max-width: 600px){
+    /* regras só valem para telas que sejam menores ou iguais (<=) 600px */
     .card{
         flex: 1 1 100%;
-    }
-
-    header {
-        background-color: #007bff;
-    }
-}
-/* Tablet com 2 colunas(50%) */
-@media(min-width: 601px) and (max-width: 900px) {
-    /* regras só valem para telas =>601px e <=900px*/
-    .card{
-        flex: 1 1 calc(50% - 16px);
-    }
-
-    header {
-        background-color: #334354;
-    }
+     } 
+     header{
+        background-color: #0c2c4d;
+     }
 }
 
+/* Tablet com 2 colunas (50%) */
+@media(min-width: 601px) and (max-width:900px){
+     /* regras só valem para telas que sejam maiores ou iguais (>=) 601px e menor ou igual
+     (<=) 900px*/
+     .card{
+        flex: 1 1 calc(50% - 16px)
+     } 
+     header{
+        background-color: #0c2c4d;
+     }
+}

@@ -4,142 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="/Exercício/assets/base.css">
-    <!-- <link rel="stylesheet" href="/Exercício/assets/grid.css"> -->
-    <link rel="stylesheet" href="/Exercício/assets/flex.css">
-    <title>Projeto Grid e Flex</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="grid.css">
+    <!-- <link rel="stylesheet" href="flex.css"> -->
+    <title>Exercício Grid e Flex</title>
 </head>
 <body>
     <div class="container">
-        <header>
-            <nav class="menu">
-                <div class="logo">Logo da Empresa</div>
-                <ul class="menu-items">
-                    <li><a href="#">Item 1</a></li>
-                    <li><a href="#">Item 2</a></li>
-                    <li><a href="#">Item 3</a></li>
-                </ul>
-                <div class="search-bar">
-                    <form action=""><input type="text" placeholder="Buscar"><button type="submit">Buscar</button></form>
-                </div>
-            </nav>
-        </header>
-        <div class="main-container">
-            <aside>
-                <img src="https://placehold.co/100x100/000000/FFFFFF.png" alt="" class="author-thumbnail">
-                <h2 class="author-name">
-                    Nelson
-                </h2>
-                <a href="mailto:nelson.souza@edu.fecap.br" class="author-email">
-                    nelson.souza@edu.fecap.br
-                </a>
-                <p class="author-bio">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, vitae. Officia labore harum ratione officiis possimus sequi quod aperiam architecto consectetur iusto. Est nisi similique mollitia nobis nam voluptatem ab.
-                </p>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook social-icon"></i></a>
-                    <a href="#"><i class="fab fa-behance social-icon"></i></a><a href="#"><i class="fab fa-linkedin social-icon"></i></a>
-                    <a href="#"><i class="fab fa-instagram social-icon"></i></a><a href="#"><i class="fab fa-github social-icon"></i></a>
-                </div>
-            </aside>
-            <div class="content-container">
-                <main>
-                    <div class="carousel">
-                        <div class="carousel-images">
-                        <img src="https://placehold.co/950x250/000000/FFFFFF.png" alt="Imagem 1">
-                        <!-- <img src="https://placehold.co/950x250/111111/FFFFFF.png" alt="Imagem 2">
-                        <img src="https://placehold.co/950x250/222222/FFFFFF.png" alt="Imagem 3"> -->
-                        </div>
+    <header>
+        <nav class="menu">
+            <div class="logo">Logo da Empresa</div>
+            <ul class="menu-items">
+                <li><a href="#">Item1</a></li>
+                <li><a href="#">Item2</a></li>
+                <li><a href="#">Item3</a></li>
+            </ul>
+            <div class="search-bar">
+                <form action="">
+                <input type="text" placeholder="Buscar">
+                <button type="submit">Buscar</button>
+            </form>
+            </div>
+        </nav>
+    </header>
+    <div class="main-container">
+        <aside>
+            <img src="https://placehold.co/100x100/000000/FFFFFF.png" alt="" class="author-thumbnail">
+            <h2 class="author-name">Chico</h2>
+            <a href="mailtofrancisco.escobar@fecap.br" class="author-email">francisco.escobar@fecap.br</a>
+            <p class="author-bio">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium in rerum expedita deleniti reprehenderit! Optio necessitatibus dolorem, recusandae ab culpa fugit repellat magni ullam ducimus, cum aperiam numquam maxime quis.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook social-icon"></i></a>
+                <a href="#"><i class="fab fa-behance social-icon"></i></a>
+                <a href="#"><i class="fab fa-linkedin social-icon"></i></a><a href="#">
+                <i class="fab fa-intagram social-icon"></i></a><a href="#">
+                <i class="fab fa-github social-icon"></i></a></div>
+        </aside>
+        <div class="content-container">
+            <main>
+                <div class="carousel">
+                    <div class="carousel-images">
+                    <img src="https://placehold.co/950x250/000000/FFFFFF.png" alt="Imagem 1">
+                    <img src="https://placehold.co/950x250/333333/FFFFFF.png" alt="Imagem 2">
+                    <img src="https://placehold.co/950x250/CCCCCC/FFFFFF.png" alt="Imagem 3">
                     </div>
-                    <button class="prev">Previ</button><button class="next">Next</button>
+                    <button class="prev">Prev</button>
+                    <button class="next">Next</button>
+                </div>
                 </main>
-                <section class="content-row">
-                    <article class="content">
-                        <img src="https://placehold.co/250x150/000000/FFFFFF.png" alt="">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptate optio, hic odio expedita quis aperiam repellendus placeat numquam ullam possimus maxime quas, deserunt perferendis, suscipit cum! Et, quae distinctio.
-                            <button>
-                            Saiba mais
-                            </button>
-                        </p>
-                    </article>
-                    <article class="content">
-                        <img src="https://placehold.co/250x150/000000/FFFFFF.png" alt="">
-                        <p>
-                            Iure accusantium deserunt eius, explicabo eveniet ipsa impedit exercitationem consectetur ducimus doloremque laboriosam, minima beatae corrupti. Ipsum suscipit hic quas aperiam, veritatis impedit sed animi quod unde, eaque eveniet quaerat.
-                            <button>
-                            Saiba mais
-                            </button>
-                        </p>
-                    </article>
-                    <article class="content">
-                        <img src="https://placehold.co/250x150/000000/FFFFFF.png" alt="">
-                        <p>
-                            Magnam consectetur velit dolor dolore. Optio vitae voluptatibus culpa eum exercitationem inventore natus fuga consequuntur officiis molestias laudantium animi a officia rerum incidunt, tempora laboriosam autem nulla reprehenderit assumenda dolorem!
-                            <button>
-                                Saiba mais
-                            </button>
-                        </p>
-                    </article>
-                </section>
+            <section class="content-row">
+                <article class="content">
+                    <img src="https://placehold.co/250x150/000000/FFFFFF.png" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus repellat provident esse fuga nisi labore, maiores distinctio sed odio quibusdam corrupti expedita modi rem! Dolorum modi est commodi eius eaque?</p>
+                    <button>Saiba Mais</button>
+                </article>
+                <article class="content">
+                    <img src="https://placehold.co/250x150/000000/FFFFFF.png" alt="">
+                    <p>Mollitia nam eligendi qui modi pariatur earum magni sequi consectetur doloribus repudiandae exercitationem quo dolorum, aut laudantium autem. Consequatur magni doloremque velit itaque voluptatum sequi ullam qui facilis, amet facere.</p>
+                        <button>Saiba Mais</button>
+                </article>
+                <article class="content">
+                    <img src="https://placehold.co/250x150/000000/FFFFFF.png" alt="">
+                    <p>Optio a placeat reiciendis nisi! Ex maiores sequi facere similique animi distinctio, vero temporibus architecto eum dolorem, quia, fugit amet repellendus rem nesciunt quo qui repudiandae voluptatibus obcaecati illum excepturi?</p>
+                    <button>Saiba Mais</button>
+                </article>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <ul>
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
+            </ul>
+            <div>
+                <p>
+                    <a href="#" class="author-email">francisco.escobar@ecap.br</a>
+                    <p>Telefone:+55 11 99999-9999</p>
+                </p>
             </div>
         </div>
-        <footer>
-            <div class="footer-container">
-                <ul>
-                    <li>
-                        <a href="#">
-                            Item 1
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Item 2
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Item 3
-                        </a>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <a href="#">
-                            Item 1
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Item 2
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Item 3
-                        </a>
-                    </li>
-                </ul>
-                <div>
-                    <p>
-                        <a href="#" class="author-email">
-                            nelson.souza@edu.fecap.br
-                        </a>
-                        <p>
-                            Telefone: +55 11 9999-9999
-                        </p>
-                    </p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>
-                    2025 - Web Full Stack - Fecap - Creative Commons
-                </p>
-            </div>
-        </footer>
+        <div class="footer-bottom">
+            <p>2025 - Web Full Stack - Fecap - Creative Commons</p>
+        </div>
+    </footer>
     </div>
-    <script src="src/script.js">
-
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>

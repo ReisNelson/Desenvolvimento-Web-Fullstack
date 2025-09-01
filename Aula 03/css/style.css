@@ -1,4 +1,4 @@
-/* Estilo do Corpo */
+/* Estilo do corpo */
 body{
     background-color: #f4f4f4;
     font-family: Arial, Helvetica, sans-serif;
@@ -7,36 +7,35 @@ body{
 }
 
 /* Cabeçalho */
-header {
+header{
     background-color: #007bff;
     color: #fff;
     text-align: center;
     padding: 20px;
 }
 
-/* Paragrafo Padrão */
-p {
- color: #333;
-
+/* Páragrao Padrão */
+p{
+    color: #333;
 }
 
 /* Parágrafo de Destaque */
-.destaque {
+.destaque{
     background-color: #ffd966;
     padding: 10px;
-    border-radius: 10px;}
+    border-radius: 10px;
+}
 
-/* Botao */
-button {
-    background-color: #000;
-    color: #fff;
+/* Botão */
+button{
+    background-color: #288838;
+    color: #ffff;
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
 }
-
-button:hover {
-    background-color: #007bff;
+button:hover{
+    background-color: #123e19;
     text-decoration: underline;
 }

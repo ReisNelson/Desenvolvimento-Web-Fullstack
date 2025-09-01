@@ -1,29 +1,27 @@
+/* estrutura flex */
+
 .container {
     display: flex;
     flex-direction: column;
 }
-
-.main-container {
+.main-container{
     display: flex;
     flex: 1;
 }
-
-aside {
+aside{
     flex-basis: 20%;
 }
-
-.content-container {
+.content-container{
     display: flex;
     flex-direction: column;
     flex: 1;
 }
 
-main {
+main{
     flex: 1;
     padding: 0;
 }
-
-.content-row {
+.content-row{
     display: flex;
     gap: 10px;
 }
